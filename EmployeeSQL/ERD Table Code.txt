@@ -20,7 +20,7 @@ emp_num INT FK >- employees.emp_num
 Employees
 -
 emp_num INT PK
-emp_title
+emp_title_id
 birth_date DATE
 first_name VARCHAR
 last_name VARCHAR
@@ -35,5 +35,5 @@ salary INT
 
 Titles
 -
-emp_num2 id FK >- employees.emp_num
-emp_title VARCHAR
+emp_title_id id FK >- employees.emp_title_id
+title VARCHAR
